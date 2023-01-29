@@ -42,8 +42,7 @@
           "palette": [ { "slug": "u-primary", "color": "#ef4444", "name": "Udemy Primary" } ],
           "text": true,
           "background": true,
-          "link": false,
-          "custom": false,
+          "custom": true,
           "gradients": [],
           "customGradient": false
         },
@@ -136,7 +135,7 @@
       },
       "core/site-title": {
         "typography": {
-          "fontFamily": "var(--wp-preset--font-family--u-pacifico)"
+          "fontFamily": "var(--wp--preset--font-family--u-pacifico)"
         }
       }
     },
@@ -160,5 +159,14 @@
       },
       "blockGap": "4rem"
     }
-  }
+  },
+  "customTemplates": [
+    {
+      "name": "full-width-page",
+      "title": "Full Width Page",
+      "postTypes": [
+        "page"
+      ]
+    }
+  ]
 }
